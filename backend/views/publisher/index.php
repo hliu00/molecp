@@ -9,6 +9,10 @@ use yii\grid\GridView;
 
 $this->title = '发行商管理';
 $this->params['breadcrumbs'][] = $this->title;
+
+$this->registerCssFile('/molecp/backend/web/css/site.css',['depends' => ['frontend\assets\AppAsset'],'position' => \yii\web\View::POS_HEAD]);
+
+
 ?>
 <div class="user-index">
 

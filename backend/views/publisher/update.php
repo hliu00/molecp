@@ -7,7 +7,7 @@ use yii\helpers\Html;
 
 $this->title = '更新发行商: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => '发行商管理', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->username, 'url' => ['view', 'id' => $model->username]];
+$this->params['breadcrumbs'][] = ['label' => $model->username, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = '更新';
 ?>
 <div class="user-update">
